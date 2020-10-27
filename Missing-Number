@@ -32,6 +32,7 @@ for i in range(n - 1):
 
 '''
 
+
 '''
 Better Solution
 '''
@@ -43,14 +44,14 @@ l = input("List of numbers (Space between num): ").split(' ')
 # Getting the sum from 1 to n.
 s = 0;
 for i in range(1, n + 1):
-  s = s + i
+  s += i
 
-# List of numbers.
+# Getting the sum of list.
 s2 = 0;
 for i in l:
-  s2 = s2 + int(i)
+  s2 += int(i)
 
-# Subtracting
+# Subtracting both sums.
 m = s - s2
 
 # Printing out the missing number.
